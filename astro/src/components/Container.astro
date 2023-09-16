@@ -6,11 +6,12 @@ export interface Props {
 const {narrow} = Astro.props;
 ---
 
-<div class={`content__container ${narrow && `content__container--narrow`}`}>
+<!-- <div class={`content__container ${narrow && `content__container--narrow`}`}> -->
+<div class="p-[8vw]">
   <slot></slot>
 </div>
 
-<style>
+<!-- <style>
 .content__container {
   max-width: var(--container-max-width);
   margin: 0 auto;
@@ -20,4 +21,4 @@ const {narrow} = Astro.props;
 .content__container--narrow {
   max-width: var(--container-max-width-narrow);
 }
-</style>
+</style> -->
