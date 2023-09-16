@@ -11,7 +11,8 @@
 
 html,
 body {
-  background-image: url("/assets/bg-mobile-4x.webp");
+  background-image: url("/assets/bg-mobile-low-contrast-4x.webp"),
+    url("/assets/bg-mobile-low-contrast-4x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   color: #ddd;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Prompt", Arial, Helvetica, sans-serif;
 }
 
 .oswald {

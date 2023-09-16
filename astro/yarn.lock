@@ -422,6 +422,11 @@
   resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.19.3.tgz"
   integrity sha512-kw7e3FXU+VsJSSSl2nMKvACYlwtvZB8RUIeVShIEY6PVnuZ3c9+L9lWB2nWeeKWNNYDdtL19foCQ0ZyUL7nqGw==
 
+"@fontsource/prompt@^5.0.9":
+  version "5.0.9"
+  resolved "https://registry.npmjs.org/@fontsource/prompt/-/prompt-5.0.9.tgz"
+  integrity sha512-fbqRSdiqANQ2NiIWz5Fpj8xQ1exN9LmhDAaE6lU52InDYPABM2JQF0WObhv8tkwE/WZ4EzNZAGNJYSo5XUqUYA==
+
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"
