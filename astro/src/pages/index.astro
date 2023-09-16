@@ -4,13 +4,45 @@ import Container from '../components/Container.astro';
 
 
 const seo = {
-  title: "Astro Minimal Starter",
-  description: "This is a starter repo for an blog built with Astro including open graph tags, canonical urls, RSS, sitemap support."
+  title: "Kreme.dev's Personal Blog",
+  description: "Share about website development, health and other random things"
 }
 ---
 
 <Layout seo={seo}>
   <Container>
+    <div class="hero">
+      <div class="email">HELLO@KREME.DEV</div>
+      <img src="/assets/images/hero/hero-mobile.svg" class="hidden" />
+      <img src="/assets/images/hero/hero-desktop.svg" class="mb-[5vh]" />
+      <!-- <p>{data.site.siteMetadata.description}</p> -->
+      <div class="social">
+        <a
+          href="https://twitter.com/kreme_q"
+          title="Twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/social/twitter.svg" />
+        </a>
+        <a
+          href="https://github.com/chaya-tan"
+          title="Github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/social/github.svg" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/chayatan/"
+          title="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/social/linkedin.svg" />
+        </a>
+      </div>
+    </div>
     <h1>Astro Sanity Minimal Starter</h1>
     
     <p>

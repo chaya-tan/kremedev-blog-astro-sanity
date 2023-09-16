@@ -1,18 +1,23 @@
-@import url('./reset.css');
+@import url("./reset.css");
 
 :root {
   --container-max-width: 1200px;
-	--container-max-width-narrow: 960px;
-	--container-padding: 0 1rem;
+  --container-max-width-narrow: 960px;
+  --container-padding: 0 1rem;
 }
 
 html,
 body {
+  background-image: url("/assets/bg-mobile-4x.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background 0.3s ease-out;
+  transition-delay: 0.25;
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #000;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: #ddd;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 p {
