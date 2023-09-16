@@ -4,6 +4,7 @@ import Layout from '../../layouts/Post.astro'
 import BlogPost from '../../components/BlogPost.astro'
 import { getSanityImageURL } from '../../utils/helpers.js';
 import { getAllPosts } from '../../lib/api.js';
+import Container from '../../components/Container.astro';
 
 export async function getStaticPaths() {
   const allBlogPosts = await getAllPosts();
@@ -32,10 +33,12 @@ const seo = {
 ---
 
 <Layout seo={seo}>
+  <Container>
  {post.categoryData && <ul>
     {post.categoryData.map(category => (
     <li><a href={`/blog/category/${category.slug.current}`}>{category.title}</a></li>
     ))}
   </ul>}
   <BlogPost post={post} />
+  </Container>
 </Layout>

@@ -19,6 +19,7 @@ const allPostData = await getAllPosts();
 <Layout seo={seo}>
   <Container>
     <article class="blog-page-content__article">
+      <h1 class="oswald text-6xl">Blog</h1>
       <section class="postlist">
         {allPostData.map((post) =>
         <BlogPostPreview post={post} />)}

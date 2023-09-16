@@ -2,6 +2,7 @@
 // Component Imports
 import Layout from '../../../layouts/Page.astro'
 import BlogPostPreview from '../../../components/BlogPostPreview.astro'
+import Container from '../../../components/Container.astro';
 
 import { getAllCategoriesWithPosts } from '../../../lib/api.js';
 
@@ -19,8 +20,10 @@ const seo = {
 ---
 
 <Layout seo={seo} >
-    <h1>All Posts Tagged with "{category.title}"</h1>
+  <Container>
+    <h1 class="oswald text-6xl mb-5">All Posts Tagged with "{category.title}"</h1>
     {category.posts.map((post) => (
        <BlogPostPreview post={post} />
     ))}
+  </Container>
 </Layout>
