@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.0.0",
-    "@fontsource/prompt": "^5.0.9"
+    "@fontsource/prompt": "^5.0.9",
+    "@fontsource-variable/oswald": "^5.0.12"
   }
 }
